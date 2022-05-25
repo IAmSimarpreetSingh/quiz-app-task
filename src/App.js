@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
 import "./App.css";
 
 const questions = [
@@ -153,48 +152,7 @@ function App() {
       )
 
       }
-
-
-    </div >
-
-
-
-
-
-
-
-
-    // <div className="app">
-    //   {showScore ? (
-    //     <div className="score-section">
-    //       Você pontuou {score} de {questions.length}
-    //     </div>
-    //   ) : (
-    //     <>
-    //       <div className="question-section">
-    //         <div className="question-count">
-    //           <span>Questão {currentQuestion + 1}</span>/{questions.length}
-    //         </div>
-    //         <div className="question-text">
-    //           {questions[currentQuestion].questionText}
-    //         </div>
-    //       </div>
-
-    //       <div className="answer-section">
-    //         {questions[currentQuestion].answerOptions.map(
-    //           (answerOption, index) => (
-    //             <button
-    //               onClick={() => handleAnswer(answerOption.isCorrect)}
-    //               key={index}
-    //             >
-    //               {answerOption.answerText}
-    //             </button>
-    //           )
-    //         )}
-    //       </div>
-    //     </>
-    //   )}
-    // </div>
+    </div>
   );
 }
 
