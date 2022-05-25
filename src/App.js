@@ -117,7 +117,7 @@ function App() {
                 <div className="progress w-20 border h-25 rounded p-0" style={{ background: '#E9ECEF' }} >
                   <div className="progress-bar bg-success" style={{ width: `${green}%` }}></div>
                 </div>
-                <h6 className="text-dark mt-2">{notCorrect}/{questions.length}</h6>
+                <h6 className="text-dark mt-2">{score}/{questions.length}</h6>
               </div>
             </div>
             <h4 className="text-dark text-center">{currentQuestion}/{questions.length}</h4>
